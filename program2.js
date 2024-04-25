@@ -1,5 +1,5 @@
 
-let smallestMissingPositiveInteger = function(nums) {
+function smallestMissingPositiveInteger(nums) {
   nums = nums.filter(num => num > 0);
   nums.sort((a, b) => a - b);
   
