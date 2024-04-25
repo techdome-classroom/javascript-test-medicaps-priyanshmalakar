@@ -1,7 +1,7 @@
 function longestSubstring(s) {
     let maxlen = 0;
     let start = 0;
-    let charIndexMap = {};
+    let indexMap = {};
 
     for (let end = 0; end < s.length; end++) {
         const currentChar = s[end];
