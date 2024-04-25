@@ -13,6 +13,7 @@ function smallestMissingPositiveInteger(nums) {
   }
 
   return nums[nums.length - 1] + 1;
+  module.exports = smallestMissingPositiveInteger;
 }
 
 function smallestMissingPositiveInteger(nums) {
@@ -21,4 +22,4 @@ function smallestMissingPositiveInteger(nums) {
 
 }
 
-module.exports = smallestMissingPositiveInteger;
+
