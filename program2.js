@@ -9,10 +9,10 @@ function firstMissingPositive(nums) {
 }
 
 function smallestMissingPositiveInteger(nums) {
-  // Filter out negative numbers and zero
+
   const positiveNums = nums.filter(num => num > 0);
   
-  // Call the firstMissingPositive function to find the smallest missing positive integer
+
   return firstMissingPositive(positiveNums);
 }
 
