@@ -9,7 +9,7 @@ function smallest_missing_positive_integer(nums) {
       }
   }
 
-  // Find the smallest missing positive integer
+
   let smallestMissing = 1;
   while (numSet.has(smallestMissing)) {
       smallestMissing++;
