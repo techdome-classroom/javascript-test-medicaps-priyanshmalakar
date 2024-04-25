@@ -13,6 +13,7 @@ function longestSubstring(s) {
     }
 
     return maxlen;
+    
 }
 
 module.exports = { longestSubstring };
