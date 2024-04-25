@@ -1,5 +1,5 @@
 
-function smallestMissingPositiveInteger(nums) {
+function smallestMissingPositiveInteger(_nums) {
 
 
 }
