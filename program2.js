@@ -1,6 +1,8 @@
 
 
+let min = 1;
 
+let newNums = nums.filter((num) => num > 0);
 
 function smallestMissingPositiveInteger(nums) {
 
