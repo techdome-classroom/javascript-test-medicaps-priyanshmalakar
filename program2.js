@@ -13,10 +13,3 @@ let smallestMissingPositiveInteger = function(nums) {
 
   return nums[nums.length - 1] + 1;
 };
-function smallestMissingPositiveInteger(nums) {
-
-  // Implement the function smallest_missing_positive_integer
-
-}
-
-module.exports = smallestMissingPositiveInteger;
