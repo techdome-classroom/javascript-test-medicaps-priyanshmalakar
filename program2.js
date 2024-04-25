@@ -1,3 +1,5 @@
+// smallestMissingPositiveInteger.js
+
 function smallestMissingPositiveInteger(nums) {
   // Helper function to swap elements in an array
   const swap = (arr, i, j) => {
