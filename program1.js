@@ -9,10 +9,10 @@ function longestSubstring(s) {
             start = indexMap[currentChar] + 1;
         }
         charIndexMap[currentChar] = end;
-        maxLength = Math.max(maxLength, end - start + 1);
+        maxlen = Math.max(maxlen, end - start + 1);
     }
 
-    return maxLength;
+    return maxlen;
 }
 
 module.exports = { longestSubstring };
